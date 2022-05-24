@@ -12,5 +12,5 @@ When application starts:
 5. To save report click button "Save to file". 
 6. Go to directory where you want to save file.
 7. Write the name of file you want to create and at the end add ".csv". 
-8. For exemple if you want to create file report, write name report.csv
+8. For exemple if you want to create file "report", write name report.csv
 9. To save file click button "Zapisz".
