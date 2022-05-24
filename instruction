@@ -1,0 +1,16 @@
+# report-generator instruction 
+Project requieres JavaFX. If you don't have it, instal Java 8 using below link, whitch contains JavaFX. 
+https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html
+You have to extract
+In console you have to set current working directory to the project target directory and run below command.
+java -jar report-generator-1.0-SNAPSHOT-jar-with-dependencies.jar
+When application starts:
+1. Click button "Add Csv File", find csv file, click on to pointed it and press button "Otwórz".
+2. If you want to add another file make fisrt step again.
+3. To generate raport click button "Generate Rep..." 
+4. In the center of app. window you will see generated values of your report. 
+5. To save report click button "Save to file". 
+6. Go to directory where you want to save file.
+7. Write the name of file you want to create and at the end add ".csv". 
+8. For exemple if you want to create file report, write name report.csv
+9. To save file click button "Zapisz".
