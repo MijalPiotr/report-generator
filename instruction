@@ -6,7 +6,7 @@ In console you have to set current working directory to the project target direc
 java -jar report-generator-1.0-SNAPSHOT-jar-with-dependencies.jar
 When application starts:
 1. Click button "Add Csv File", find csv file, click on to pointed it and press button "Otwórz".
-2. If you want to add another file make fisrt step again.
+2. If you want to add another file make first step again.
 3. To generate raport click button "Generate Rep..." 
 4. In the center of app. window you will see generated values of your report. 
 5. To save report click button "Save to file". 
