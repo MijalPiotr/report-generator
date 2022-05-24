@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.pm.report.generator.Controller">
+    <children>
+        <BorderPane layoutX="174.0" layoutY="55.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <left>
+                <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Button fx:id="addFile" mnemonicParsing="false" onAction="#addFile" text="Add Csv File" />
+                        <Label fx:id="filesList" text="" />
+                        <Button fx:id="generateButton" mnemonicParsing="false" onAction="#generateReport" text="Generate Report" />
+                    </children>
+                </VBox>
+            </left>
+            <center>
+                <Label fx:id="raport" text="" BorderPane.alignment="CENTER" />
+            </center>
+            <bottom>
+                <Button mnemonicParsing="false" onAction="#saveToFile" text="Save to file" BorderPane.alignment="CENTER" />
+            </bottom>
+        </BorderPane>
+    </children>
+</AnchorPane>
